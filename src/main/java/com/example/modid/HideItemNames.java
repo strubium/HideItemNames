@@ -5,7 +5,7 @@ import net.minecraft.client.settings.GameSettings;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 
-@Mod(modid = "hideitemnames", name = "Hide Item Names Mod", version = "1.0")
+@Mod(modid = "hideitemnames", name = "Hide Item Names Mod", version = "1.0", clientSideOnly = true)
 public class HideItemNames {
 
     @Mod.EventHandler
